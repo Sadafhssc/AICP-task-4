@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+       <!-- Add Book Form Screen -->
+        <div class="container">
+    <div id="add-book-screen" >
+        <h2>Add Book</h2>
+        <input type="text" id="book-title" placeholder="Book Title">
+        <input type="number" id="book-pages" placeholder="Book Pages">
+        <input type="text" id="book-publisher" placeholder="Book Publisher">
+        <input type="text" id="book-author" placeholder="Book Author">
+        <input type="text" id="book-edition" placeholder="Book Edition">
+        <button onclick="addBook()">Add Book</button>
+        <a href="index3.html" id="admin-view-screen"><button onclick="showAdminViewScreen()">Dashboard</button></a>
+    </div></div>
+</body>
+<script src="app.js"></script>
+</html>

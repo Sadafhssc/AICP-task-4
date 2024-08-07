@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container3">
+    <div id="admin-view-screen" class="box3">
+        <h2>Admin Dashboard</h2>
+        <input type="text" class="input" id="admin-search-bar" placeholder="Search for a book">
+        <button onclick="searchBooks('admin')">Search</button><a href="index2.html"><button onclick="showAddBookScreen()">Add Book</button></a>
+        <button onclick="viewBooks('admin')">View Book List</button>
+        <button onclick="manageUsers()">Manage Users</button>
+        <div id="user-management" class="hidden">
+            <h3>Users List</h3>
+            <ul id="users-list"></ul>
+            <br>
+            <!-- User management elements will be added here -->
+        </div>
+        <div id="admin-book-list-container" class="hidden">
+            <ul id="admin-book-list" class="listofbooks"></ul>
+        </div></div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

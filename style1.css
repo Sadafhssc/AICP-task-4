@@ -1,0 +1,231 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+}
+
+#app {
+    background-color: rgba(0, 0, 0, 0.7);
+    width:30%;
+    height:23rem;
+    margin:4.5rem 10rem;
+    padding:1.2rem 2rem;
+    border-radius:5px;
+    color:#fff;
+}
+a{
+    margin-right:5rem;
+    color:#fff;
+    text-decoration: none;
+}
+h2{
+    color:#fff;
+    font-weight:700;
+    font-size:1.7rem;
+    text-align: center;
+}
+p{
+    color:#fff;
+    font-size:1rem;
+    font-weight:400;
+}
+
+.screen {
+    display: none;
+}
+
+.screen.active {
+    display: block;
+}
+ input{
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, 0.5);
+    color:#cccccc;
+    outline:none;
+    border-radius:1rem;
+    width:20rem;
+    height:1.2rem;
+    padding:1rem 1rem;
+    font-size:1rem;
+    margin:0.6rem 0;
+ }   
+ select{
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, 0.5);
+    color:#cccccc;
+    outline:none;
+    border-radius:1.5rem;
+    width:18rem;
+    height:3rem;
+    padding:0.5rem 1rem;
+    font-size:1rem;
+    margin:0.6rem 0;
+ } 
+ select option{
+    color:black;
+ }
+ button {
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, 0.5);
+    color:#cccccc;
+    outline:none;
+    border-radius:1.5rem;
+    width:10rem;
+    height:3rem;
+    padding:0.5rem 1rem;
+    font-size:1rem;
+    margin:0.6rem 0;
+    cursor:pointer;
+}
+button:hover{
+    color:rgb(48, 48, 168);
+    border:2px solid rgb(48, 48, 168);
+}
+
+.hidden {
+    display: none;
+}
+#book-list{
+    width:100%;
+    height:auto;
+    margin: 5px 0;
+    color: black;
+    position: absolute;
+    
+
+}
+.rmv{
+    float: right;
+    margin-top: 2px;
+    margin-right: 0px;
+    width: 68px;
+    color: #fbfbfb;
+ border-radius: 10px;
+    background-color: rgb(158, 143, 45);
+}
+.container{
+    background-color:rgba(0, 0, 0, 0.7);
+    width:60vw;
+    height:60vh;
+    margin:5rem 4rem;
+    padding:1rem;
+    color:#fff;
+}
+#add-book-screen input{
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, 0.5);
+    color:#cccccc;
+    outline:none;
+    border-radius:1rem;
+    width:20rem;
+    height:1.2rem;
+    padding:1rem 1rem;
+    font-size:1rem;
+    margin:0.6rem 0;
+}
+#add-book-screen button{
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, 0.5);
+    color:#cccccc;
+    outline:none;
+    border-radius:1.5rem;
+    width:10rem;
+    height:3rem;
+    padding:0.5rem 1rem;
+    font-size:1rem;
+    margin:0.6rem 0;
+    cursor:pointer;
+}
+#add-book-screen button:hover{
+    color:rgb(48, 48, 168);
+    border:2px solid rgb(48, 48, 168);
+}
+.container3{
+    background-color:rgba(0, 0, 0, 0.7);
+    width:70vw;
+    height:65vh;
+    margin:5rem 4rem;
+    padding:1rem;
+    color:#fff;
+}
+.box3 input{
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, 0.5);
+    color:#cccccc;
+    outline:none;
+    border-radius:1rem;
+    width:20rem;
+    height:1.2rem;
+    padding:1rem 1rem;
+    font-size:1rem;
+    margin:0.6rem 0;
+}
+.box3 button{
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, 0.5);
+    color:#cccccc;
+    outline:none;
+    border-radius:1.5rem;
+    width:10rem;
+    height:3rem;
+    padding:0.5rem 1rem;
+    font-size:1rem;
+    margin:0.6rem 0;
+    cursor:pointer;
+}
+.box3 button:hover{
+    color:rgb(48, 48, 168);
+    border:2px solid rgb(48, 48, 168);
+}
+#admin-book-list-container ul{
+    display:flex;
+    flex-direction:row;
+    height:6rem;
+    margin-right:1rem;
+}
+#admin-book-list-container button{
+    margin-right:1rem;
+}
+#user-management ul{
+    display:flex;
+    flex-direction:row;
+    height:6rem;
+    margin-right:1rem;
+    justify-content:flex-start;
+}
+#user-management button{
+    margin:0.5rem 0.5rem;
+}
+#login-screen button ,a{
+ display:inline-block;
+  vertical-align: middle;
+}
+.button-link {
+    background-color: transparent;
+    border:2px solid rgba(225, 225, 225, 0.5);
+    color:#cccccc;
+    outline:none;
+    border-radius:1.5rem;
+    width:7rem;
+    height:1.7rem;
+    padding:0.5rem 1rem;
+    font-size:1.1rem;
+    margin:0.6rem 0;
+    cursor:pointer;
+    text-decoration: none;
+    text-align:center;
+  }
+ .button-link:hover{
+    color:rgb(48, 48, 168);
+    border:2px solid rgb(48, 48, 168);
+}
+.a{
+    margin-right:8rem;
+}
